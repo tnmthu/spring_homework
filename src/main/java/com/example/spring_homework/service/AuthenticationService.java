@@ -1,6 +1,9 @@
 package com.example.spring_homework.service;
 
-public interface AuthenticationService {
-    public boolean login(String username, String password);
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+public interface AuthenticationService {
+    BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+    boolean login(String username, String password);
+    String hash();
 }

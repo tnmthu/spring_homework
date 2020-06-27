@@ -1,0 +1,17 @@
+.header {
+    width: 90%;
+    height: 80px;
+    margin: auto;
+}
+.btn__logout {
+    border: 1.5px solid #000;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+}
+.btn__logout:hover {
+    cursor: pointer;
+    background-color: #eee;
+    text-decoration: underline;
+}

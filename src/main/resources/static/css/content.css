@@ -1,0 +1,9 @@
+.content {
+    width: 80%;
+    margin: auto;
+}
+.ava {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
